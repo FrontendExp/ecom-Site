@@ -36,3 +36,197 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+.col-1{
+  height: 140px;
+  width: 130px;
+  background-repeat: no-repeat;
+  background-image: url('./Images/Grocery.png');
+  background-size: 125px;
+}
+.col-2{
+  height: 140px;
+  background-position-y:-20px ;
+  width: 130px;
+  background-repeat: no-repeat;
+  background-image: url('./Images/Mobiles.png');
+  background-size: 90px;
+}
+.col-3{
+  height: 140px;
+  width: 130px;
+  background-repeat: no-repeat;
+  background-image: url('./Images/Fashion.png');
+  background-size: 90px;
+}
+.col-4{
+  height: 140px;
+  width: 140px;
+  background-repeat: no-repeat;
+  background-image: url('./Images/Electronics.png');
+  background-size: 145px;
+  background-position-x:-10px ;
+}
+.col-5{
+  height: 140px;
+  width: 140px;
+  background-repeat: no-repeat;
+  background-image: url('./Images/Home\ &\ Furniture.png');
+  background-size: 130px;
+}
+.col-6{
+  height: 140px;
+  width: 140px;
+  background-repeat: no-repeat;
+  background-image: url('./Images/Appliances.png');
+  background-size: 130px;
+}
+.col-7{
+  height: 140px;
+  width: 130px;
+  background-repeat: no-repeat;
+  background-image: url('./Images/Travel.png');
+  background-size: 130px;
+}
+.col-8{
+  height: 140px;
+  width: 100px;
+  background-repeat: no-repeat;
+  background-image: url('./Images/Offers.png');
+  background-size: 80px;
+}
+.col-9{
+  height: 140px;
+  width: 150px;
+  background-repeat: no-repeat;
+  background-image: url('./Images/Toys\,\ Beauty\ &\ More.png');
+  background-size: 130px;
+}
+
+.col-10{
+  height: 140px;
+  width: 100px;
+  background-repeat: no-repeat;
+  background-image: url('./Images/Two\ Wheelers.png');
+  background-size: 100px;
+}
+
+.form {
+  display: flex;
+  margin-top: 5em;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 2em;
+  padding-right: 2em;
+  width: 400px;
+  height: 450px;
+  padding-bottom: 0.4em;
+  background-color: #000000;
+  border-radius: 25px;
+  transition: .4s ease-in-out;
+}
+
+.form:hover {
+  transform: scale(1.05);
+  border: 1px solid black;
+}
+
+#heading {
+  text-align: center;
+  margin: 2em;
+  color: rgb(255, 255, 255);
+  font-size: 1.2em;
+}
+
+.field {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+  border-radius: 25px;
+  padding: 0.6em;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: #171717;
+  box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+}
+
+.input-icon {
+  height: 1.3em;
+  width: 1.3em;
+  fill: white;
+}
+
+.input-field {
+  background: none;
+  border: none;
+  outline: none;
+  width: 100%;
+  color: #d3d3d3;
+}
+
+.form .btn {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 2.5em;
+}
+
+.button1 {
+  padding: 0.5em;
+  padding-left: 1.1em;
+  padding-right: 1.1em;
+  border-radius: 5px;
+  margin-right: 0.5em;
+  border: none;
+  outline: none;
+  transition: .4s ease-in-out;
+  background-color: #252525;
+  color: white;
+}
+
+.button1:hover {
+  background-color: black;
+  color: white;
+}
+
+.button2 {
+  padding: 0.5em;
+  padding-left: 2.3em;
+  padding-right: 2.3em;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  transition: .4s ease-in-out;
+  background-color: #252525;
+  color: white;
+}
+
+.button2:hover {
+  background-color: black;
+  color: white;
+}
+
+.button3 {
+  margin-bottom: 3em;
+  padding: 0.5em;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  transition: .4s ease-in-out;
+  background-color: #252525;
+  color: white;
+}
+
+.button3:hover {
+  background-color: red;
+  color: white;
+}
+.login-body{
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(71, 120, 244);
+}
